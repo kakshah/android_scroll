@@ -1,5 +1,5 @@
-package kakshah.android.scroll;
-// TODO - Make a scroll with somthing cool!
+package kakshah.boulevardofbrokendreams;
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;

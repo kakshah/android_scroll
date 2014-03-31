@@ -1,5 +1,6 @@
 package kakshah.boulevardofbrokendreams;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -10,7 +11,9 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	}
+	MediaPlayer boul = MediaPlayer.create(this, R.raw.boule);
+	boul.start();
+			}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
